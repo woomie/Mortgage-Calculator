@@ -1,0 +1,151 @@
+.outfit {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+*{
+    text-decoration: none;
+    font-family: "outfit", sans-serif;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:hsl(203, 41%, 72%)
+    
+    
+}
+.row{
+    background-color: white;
+    border-radius: 20px;
+
+}
+.container{
+    width:60%;
+    max-width: width 1200px; ;
+    padding: 40px;
+    background-color: hsl(203, 41%, 72%);
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-div{
+    flex:1;
+    padding: 20px;
+    box-sizing:border-box;
+    background-color: white;
+}
+.header{
+    margin:20px;
+    box-sizing:border-box;
+}
+form{
+    margin:20px;
+    box-sizing:border-box;
+}
+.form-check{
+    border: 1px solid rgba(82, 81, 81, 0.163);
+    padding:10px;
+    border-radius:6px;
+    margin-top: 10px;
+    
+}
+.form-check-input {
+    transform: translateX(10px);
+}
+.form-check-label{
+    transform: translateX(10px);
+}
+
+button {
+    border:0;
+    outline:0;
+    background:hsl(61, 70%, 52%);
+    border-radius: 40px !important;
+    width:250px;
+    height:50px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px !important;
+}
+    
+.right-div{
+    background-color: hsl(202, 55%, 16%);
+    flex:1;
+    padding: 20px;
+    box-sizing:border-box;
+    color:white;
+    border-radius:0 0 0 10%; 
+    display: flex;
+    flex-direction: column;
+}
+img {
+    width: 200px;    
+    height: auto;     /* Automatically adjust the height to maintain the aspect ratio */
+}
+.display{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:20px;
+}
+.result{
+    display:none;
+    margin:30px; 
+}
+.total-result{
+    background-color: hsl(202, 58%, 6%);
+    color:white;
+    margin: 30px;
+    padding: 20px;
+    border-top: 4px solid hsl(61, 70%, 52%);
+    border-radius: 10px;
+}
+/* .form-control:focus {
+    border: none !important; /* Remove border 
+    outline: none !important;  Remove outline 
+    box-shadow: none !important; Remove box-shadow 
+}
+.form-control:focus{
+    border: 2px solid hsl(61, 70%, 52%)!important;
+    
+} */
+
+.input-group:focus-within .input-group-text {
+    background-color: hsl(61, 70%, 52%) !important;
+    border: 2px solid hsl(61, 70%, 52%) !important;
+  }
+  
+  .input-group:focus-within .form-control {
+    border: 2px solid hsl(61, 70%, 52%) !important;
+    box-shadow: none !important;
+  }
+
+  .form-control:focus-within {
+    border: 2px solid hsl(61, 70%, 52%) !important;
+    box-shadow: none !important;
+  }
+  .form-check:focus-within {
+    border: 2px solid hsl(61, 70%, 52%) !important;
+    box-shadow: none !important;
+    background-color: rgb(249, 249, 240);
+  }
+  .form-check-input:focus-within{
+    background-color: hsl(61, 70%, 52%) !important;
+    border: 2px solid hsl(61, 70%, 52%) !important;
+  }
+  .small-calc{
+    width:24px;
+    margin-right: 10px;
+  }
+
